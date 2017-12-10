@@ -1,0 +1,29 @@
+{
+    "contacts": [{
+        "company": "Demo API company",
+        "address": "Demo API company address street at earth planet",
+        "phone": null
+    }],
+	"bye": [{
+        "id": 1,
+        "message": "Currently You can bye USD currency",
+        "currency": "USD",
+        "exchangeRate": 3.6845
+    }, {
+        "id": 2,
+		"message": "Currently You can bye EUR currency",
+        "name": "EUR",
+        "exchangeRate": 4.3019
+    }],
+	"sell": [{
+        "id": 1,
+		"message": "Currently You can sell USD currency",
+        "name": "USD",
+        "exchangeRate": 3.6845
+    }, {
+        "id": 2,
+		"message": "Currently You can sell EUR currency",
+        "name": "EUR",
+        "exchangeRate": 4.3019
+    }]
+}
