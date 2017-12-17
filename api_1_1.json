@@ -1,9 +1,9 @@
 {
-    "contacts": [{
+    "contacts": {
         "company": "Demo API company",
         "address": "Demo API company address street at earth planet",
-        "phone": null
-    }],
+        "phone": "+48889417715"
+    },
 	"bye": [{
         "id": 1,
         "message": "Currently You can bye USD currency",
