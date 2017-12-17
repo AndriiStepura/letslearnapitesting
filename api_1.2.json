@@ -4,26 +4,36 @@
         "address": "Demo API company address street at earth planet",
         "phone": "+48889417715"
     },
-	"bye": [{
+	"buy": [{
         "id": 1,
-        "message": "Currently You can bye USD currency",
         "currency": "USD",
+        "message": "Currently You can buy USD currency",
         "exchangeRate": 3.6845
     }, {
         "id": 2,
-		"message": "Currently You can bye EUR currency",
-        "name": "EUR",
+        "currency": "EUR",
+		"message": "Currently You can buy EUR currency",
         "exchangeRate": 4.3019
+    }, {
+        "id": 3,
+        "currency": "CAD",
+		"message": "Currently You can't buy CAD currency",
+        "exchangeRate": null
     }],
 	"sell": [{
         "id": 1,
+        "currency": "USD",
 		"message": "Currently You can sell USD currency",
-        "name": "USD",
-        "exchangeRate": 3.6845
+        "exchangeRate": 3.83188
     }, {
         "id": 2,
+        "currency": "EUR",
 		"message": "Currently You can sell EUR currency",
-        "name": "EUR",
         "exchangeRate": 4.3019
+    }, {
+        "id": 3,
+        "currency": "CAD",
+		"message": "Currently You can't sell CAD currency",
+        "exchangeRate": null
     }]
 }
