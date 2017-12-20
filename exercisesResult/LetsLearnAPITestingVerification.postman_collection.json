@@ -1,0 +1,119 @@
+{
+	"variables": [],
+	"info": {
+		"name": "LetsLearnAPITestingVerification",
+		"_postman_id": "d1542162-4bd4-1531-b6af-fb4e393fbbaf",
+		"description": "Collection for demo API from\r\ngit clone https://github.com/AndriiStepura/letslearnapitesting.git",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "VerificationTestsForAll",
+			"description": "",
+			"item": [
+				{
+					"name": "/buy?currency=ALL",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"BUY \"+data.currencyName+\" page is available\"] = responseCode.code === 200;",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"tests[data.currencyName+\" BUY exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;",
+									"",
+									"if (jsonData[0].exchangeRate > 0) {",
+									"    tests[\"Message for BUY \"+data.currencyName+\" is: \\\"Currently You can buy \"+data.currencyName+\" currency\\\"\"] = jsonData[0].message == \"Currently You can buy \"+data.currencyName+\" currency\";",
+									"    postman.setEnvironmentVariable(\"buyPrice\", jsonData[0].exchangeRate);",
+									"} else {",
+									"    tests[\"Message for BUY \"+data.currencyName+\" is: \\\"Currently You can't buy \"+data.currencyName+\" currency\\\"\"] = jsonData[0].message == \"Currently You can't buy \"+data.currencyName+\" currency\";",
+									"}"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"raw": "{{host}}/buy?currency={{currencyName}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"buy"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "{{currencyName}}",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/sell?currency=ALL",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"SELL \" + data.currencyName + \" page is available\"] = responseCode.code === 200;",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"tests[data.currencyName + \" SELL exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;",
+									"",
+									"if (jsonData[0].exchangeRate > 0) {",
+									"    tests[\"Message for SELL \" + data.currencyName + \" is: \\\"Currently You can sell \" + data.currencyName + \" currency\\\"\"] = jsonData[0].message == \"Currently You can sell \" + data.currencyName + \" currency\";",
+									"    tests[data.currencyName + \" SELL price \" + jsonData[0].exchangeRate + \" at least for 4% highest than BUY price \" + environment.buyPrice] = jsonData[0].exchangeRate >= environment.buyPrice / 1.04;",
+									"} else {",
+									"    tests[\"Message for SELL \" + data.currencyName + \" is: \\\"Currently You can't sell \" + data.currencyName + \" currency\\\"\"] = jsonData[0].message == \"Currently You can't sell \" + data.currencyName + \" currency\";",
+									"",
+									"    if (environment.buyPrice) {",
+									"        tests[data.currencyName + \" SELL price is not available when BUY price exists\"] = true;",
+									"    }",
+									"}"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"raw": "{{host}}/sell?currency={{currencyName}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sell"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "{{currencyName}}",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

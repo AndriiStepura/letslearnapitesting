@@ -1,0 +1,216 @@
+{
+	"variables": [],
+	"info": {
+		"name": "LetsLearnAPITestingSmokeTests",
+		"_postman_id": "be12db38-5ef6-ed28-24ee-ed1e24bfcd66",
+		"description": "Collection for demo API from\r\ngit clone https://github.com/AndriiStepura/letslearnapitesting.git",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SmokeTests",
+			"description": "",
+			"item": [
+				{
+					"name": "Start page /",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"Start page is available\"] = responseCode.code === 200;"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": "{{host}}/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/buy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"Buy page is available\"] = responseCode.code === 200;"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": "{{host}}/buy",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/sell",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"Sell page is available\"] = responseCode.code === 200;"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": "{{host}}/sell",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/contacts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"Contact page is available\"] = responseCode.code === 200;\r",
+									"\r",
+									"var jsonData = JSON.parse(responseBody);\r",
+									"tests[\"phone is equal +48889417715\"] = jsonData.phone == \"+48889417715\";"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": "{{host}}/contacts",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VerifyOneCurrency",
+			"description": "",
+			"item": [
+				{
+					"name": "/buy?currency=One",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"BUY USD page is available\"] = responseCode.code === 200;\r",
+									"\r",
+									"var jsonData = JSON.parse(responseBody);\r",
+									"tests[\"USD BUY exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;\r",
+									"\r",
+									"if (jsonData[0].exchangeRate > 0) {\r",
+									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can buy ZWL currency\";\r",
+									"    postman.setEnvironmentVariable(\"buyPrice\", jsonData[0].exchangeRate);\r",
+									"} else {\r",
+									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can't buy ZWL currency\";\r",
+									"}\r",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"raw": "{{host}}/buy?currency=ZWL",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"buy"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "ZWL",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/sell?currency=One",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"tests[\"SELL USD page is available\"] = responseCode.code === 200;",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"tests[\"USD SELL exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;",
+									"",
+									"if (jsonData[0].exchangeRate > 0) {",
+									"    tests[\"Message for SELL USD is: \\\"Currently You can sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can sell ZWL currency\";",
+									"    tests[data.currencyName + \" SELL price \" + jsonData[0].exchangeRate + \" at least for 4% highest than BUY price \" + environment.buyPrice] = jsonData[0].exchangeRate >= environment.buyPrice / 1.04;",
+									"} else {",
+									"    tests[\"Message for SELL USD is: \\\"Currently You can't sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can't sell ZWL currency\";",
+									"    if (environment.buyPrice) {",
+									"        tests[data.currencyName + \" SELL price is not available when BUY price exists\"] = true;",
+									"    }",
+									"}"
+								]
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"raw": "{{host}}/sell?currency=ZWL",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sell"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "ZWL",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
