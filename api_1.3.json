@@ -5,146 +5,6 @@
         "phone": "+48889417715"
     },
 	"buy": [{
-	"id": 1,
-	"currency": "AED",
-	"message" : "Currently You can buy AED currency",
-	"exchangeRate": 1.1234
-}, {
-	"id": 2,
-	"currency": "AFN",
-	"message" : "Currently You can buy AFN currency",
-	"exchangeRate": 1.1235
-}, {
-	"id": 3,
-	"currency": "ALL",
-	"message" : "Currently You can buy ALL currency",
-	"exchangeRate": 1.1236
-}, {
-	"id": 4,
-	"currency": "AMD",
-	"message" : "Currently You can buy AMD currency",
-	"exchangeRate": 1.1237
-}, {
-	"id": 5,
-	"currency": "ANG",
-	"message" : "Currently You can buy ANG currency",
-	"exchangeRate": 1.1238
-}, {
-	"id": 6,
-	"currency": "AOA",
-	"message" : "Currently You can buy AOA currency",
-	"exchangeRate": 1.1239
-}, {
-	"id": 7,
-	"currency": "ARS",
-	"message" : "Currently You can buy ARS currency",
-	"exchangeRate": 1.1240
-}, {
-	"id": 8,
-	"currency": "AUD",
-	"message" : "Currently You can buy AUD currency",
-	"exchangeRate": 1.1241
-}, {
-	"id": 9,
-	"currency": "AWG",
-	"message" : "Currently You can buy AWG currency",
-	"exchangeRate": 1.1242
-}, {
-	"id": 10,
-	"currency": "AZN",
-	"message" : "Currently You can buy AZN currency",
-	"exchangeRate": 1.1243
-}, {
-	"id": 11,
-	"currency": "BAM",
-	"message" : "Currently You can buy BAM currency",
-	"exchangeRate": 1.1244
-}, {
-	"id": 12,
-	"currency": "BBD",
-	"message" : "Currently You can buy BBD currency",
-	"exchangeRate": 1.1245
-}, {
-	"id": 13,
-	"currency": "BDT",
-	"message" : "Currently You can buy BDT currency",
-	"exchangeRate": 1.1246
-}, {
-	"id": 14,
-	"currency": "BGN",
-	"message" : "Currently You can buy BGN currency",
-	"exchangeRate": 1.1247
-}, {
-	"id": 15,
-	"currency": "BHD",
-	"message" : "Currently You can buy BHD currency",
-	"exchangeRate": 1.1248
-}, {
-	"id": 16,
-	"currency": "BIF",
-	"message" : "Currently You can buy BIF currency",
-	"exchangeRate": 1.1249
-}, {
-	"id": 17,
-	"currency": "BMD",
-	"message" : "Currently You can buy BMD currency",
-	"exchangeRate": 1.1250
-}, {
-	"id": 18,
-	"currency": "BND",
-	"message" : "Currently You can buy BND currency",
-	"exchangeRate": 1.1251
-}, {
-	"id": 19,
-	"currency": "BOB",
-	"message" : "Currently You can buy BOB currency",
-	"exchangeRate": 1.1252
-}, {
-	"id": 20,
-	"currency": "BOV",
-	"message" : "Currently You can buy BOV currency",
-	"exchangeRate": 1.1253
-}, {
-	"id": 21,
-	"currency": "BRL",
-	"message" : "Currently You can buy BRL currency",
-	"exchangeRate": 1.1254
-}, {
-	"id": 22,
-	"currency": "BSD",
-	"message" : "Currently You can buy BSD currency",
-	"exchangeRate": 1.1255
-}, {
-	"id": 23,
-	"currency": "BTN",
-	"message" : "Currently You can buy BTN currency",
-	"exchangeRate": 1.1256
-}, {
-	"id": 24,
-	"currency": "BWP",
-	"message" : "Currently You can buy BWP currency",
-	"exchangeRate": 1.1257
-}, {
-	"id": 25,
-	"currency": "BYN",
-	"message" : "Currently You can buy BYN currency",
-	"exchangeRate": 1.1258
-}, {
-	"id": 26,
-	"currency": "BZD",
-	"message" : "Currently You can buy BZD currency",
-	"exchangeRate": 1.1259
-}, {
-	"id": 27,
-	"currency": "CAD",
-	"message" : "Currently You can buy CAD currency",
-	"exchangeRate": 1.1260
-}, {
-	"id": 28,
-	"currency": "CDF",
-	"message" : "Currently You can buy CDF currency",
-	"exchangeRate": 1.1261
-}, {
 	"id": 36,
 	"currency": "COU",
 	"message" : "Currently You can buy COU currency",
@@ -304,46 +164,6 @@
 	"message" : "Currently You can buy INR currency",
 	"exchangeRate": 1.1300
 }, {
-	"id": 68,
-	"currency": "IQD",
-	"message" : "Currently You can buy IQD currency",
-	"exchangeRate": 1.1301
-}, {
-	"id": 69,
-	"currency": "IRR",
-	"message" : "Currently You can buy IRR currency",
-	"exchangeRate": 1.1302
-}, {
-	"id": 70,
-	"currency": "ISK",
-	"message" : "Currently You can buy ISK currency",
-	"exchangeRate": 1.1303
-}, {
-	"id": 71,
-	"currency": "JMD",
-	"message" : "Currently You can buy JMD currency",
-	"exchangeRate": 1.1304
-}, {
-	"id": 72,
-	"currency": "JOD",
-	"message" : "Currently You can buy JOD currency",
-	"exchangeRate": 1.1305
-}, {
-	"id": 73,
-	"currency": "JPY",
-	"message" : "Currently You can buy JPY currency",
-	"exchangeRate": 1.1306
-}, {
-	"id": 74,
-	"currency": "KES",
-	"message" : "Currently You can buy KES currency",
-	"exchangeRate": 1.1307
-}, {
-	"id": 75,
-	"currency": "KGS",
-	"message" : "Currently You can buy KGS currency",
-	"exchangeRate": 1.1308
-}, {
 	"id": 80,
 	"currency": "KWD",
 	"message" : "Currently You can buy KWD currency",
@@ -372,7 +192,7 @@
 	"id": 85,
 	"currency": "LKR",
 	"message" : "Currently You can buy LKR currency",
-	"exchangeRate": 1.1318
+	"exchangeRate": 0
 }, {
 	"id": 86,
 	"currency": "LRD",
@@ -381,7 +201,7 @@
 }, {
 	"id": 87,
 	"currency": "LSL",
-	"message" : "Currently You can buy LSL currency",
+	"message" : "Currently You can't buy LSL currency",
 	"exchangeRate": 1.1320
 }, {
 	"id": 88,
@@ -479,6 +299,121 @@
 	"message" : "Currently You can buy NIO currency",
 	"exchangeRate": 1.1339
 }, {
+	"id": 107,
+	"currency": "NOK",
+	"message" : "Currently You can buy NOK currency",
+	"exchangeRate": 1.1340
+}, {
+	"id": 108,
+	"currency": "NPR",
+	"message" : "Currently You can buy NPR currency",
+	"exchangeRate": 1.1341
+}, {
+	"id": 109,
+	"currency": "NZD",
+	"message" : "Currently You can buy NZD currency",
+	"exchangeRate": 1.1342
+}, {
+	"id": 110,
+	"currency": "OMR",
+	"message" : "Currently You can't buy OMR currency",
+	"exchangeRate": 1.1343
+}, {
+	"id": 111,
+	"currency": "PAB",
+	"message" : "Currently You can buy PAB currency",
+	"exchangeRate": 1.1344
+}, {
+	"id": 112,
+	"currency": "PEN",
+	"message" : "Currently You can buy PEN currency",
+	"exchangeRate": 1.1345
+}, {
+	"id": 113,
+	"currency": "PGK",
+	"message" : "Currently You can buy PGK currency",
+	"exchangeRate": 1.1346
+}, {
+	"id": 114,
+	"currency": "PHP",
+	"message" : "Currently You can buy PHP currency",
+	"exchangeRate": 1.1347
+}, {
+	"id": 115,
+	"currency": "PKR",
+	"message" : "Currently You can buy PKR currency",
+	"exchangeRate": 1.1348
+}, {
+	"id": 116,
+	"currency": "PLN",
+	"message" : "Currently You can buy PLN currency",
+	"exchangeRate": 1.1349
+}, {
+	"id": 117,
+	"currency": "PYG",
+	"message" : "Currently You can buy PYG currency",
+	"exchangeRate": 1.1350
+}, {
+	"id": 118,
+	"currency": "QAR",
+	"message" : "Currently You can buy QAR currency",
+	"exchangeRate": 1.1351
+}, {
+	"id": 119,
+	"currency": "RON",
+	"message" : "Currently You can buy RON currency",
+	"exchangeRate": 1.1352
+}, {
+	"id": 120,
+	"currency": "RSD",
+	"message" : "Currently You can buy RSD currency",
+	"exchangeRate": 1.1353
+}, {
+	"id": 121,
+	"currency": "RUB",
+	"message" : "Currently You can buy RUB currency",
+	"exchangeRate": 1.1354
+}, {
+	"id": 122,
+	"currency": "RWF",
+	"message" : "Currently You can't buy RWF currency",
+	"exchangeRate": 1.1355
+}, {
+	"id": 123,
+	"currency": "SAR",
+	"message" : "Currently You can buy SAR currency",
+	"exchangeRate": 1.1356
+}, {
+	"id": 124,
+	"currency": "SBD",
+	"message" : "Currently You can buy SBD currency",
+	"exchangeRate": 1.1357
+}, {
+	"id": 125,
+	"currency": "SCR",
+	"message" : "Currently You can buy SCR currency",
+	"exchangeRate": 1.1358
+}, {
+	"id": 126,
+	"currency": "SDG",
+	"message" : "Currently You can buy SDG currency",
+	"exchangeRate": 1.1359
+}, {
+	"id": 127,
+	"currency": "SEK",
+	"message" : "Currently You can buy SEK currency",
+	"exchangeRate": 1.1360
+}, {
+	"id": 128,
+	"currency": "SGD",
+	"message" : "Currently You can buy SGD currency",
+	"exchangeRate": 1.1361
+}, {
+	"id": 129,
+	"currency": "SHP",
+	"message" : "Currently You can buy SHP currency",
+	"exchangeRate": 1.1362
+}, {
 	"id": 130,
 	"currency": "SLL",
 	"message" : "Currently You can buy SLL currency",
@@ -496,6 +431,7 @@
 }, {
 	"id": 133,
 	"currency": "SSP",
+	"message" : "Currently You can buy SSP currency",
 	"exchangeRate": 1.1366
 }, {
 	"id": 134,
@@ -675,7 +611,8 @@
 }, {
 	"id": 169,
 	"currency": "XPF",
-	"message" : "Currently You can buy XPF currency"
+	"message" : "Currently You can buy XPF currency",
+	"exchangeRate": 1.1402
 }, {
 	"id": 170,
 	"currency": "XPT",
@@ -697,21 +634,6 @@
 	"message" : "Currently You can buy XUA currency",
 	"exchangeRate": 1.1406
 }, {
-	"id": 174,
-	"currency": "XXX",
-	"message" : "Currently You can buy XXX currency",
-	"exchangeRate": 1.1407
-}, {
-	"id": 175,
-	"currency": "YER",
-	"message" : "Currently You can buy YER currency",
-	"exchangeRate": 1.1408
-}, {
-	"id": 176,
-	"currency": "ZAR",
-	"message" : "Currently You can buy ZAR currency",
-	"exchangeRate": 1.1409
-}, {
 	"id": 177,
 	"currency": "ZMW",
 	"message" : "Currently You can buy ZMW currency",
@@ -728,21 +650,6 @@
 	"message" : "Currently You can sell AED currency",
 	"exchangeRate": 1.1234
 }, {
-	"id": 2,
-	"currency": "AFN",
-	"message" : "Currently You can sell AFN currency",
-	"exchangeRate": 1.1235
-}, {
-	"id": 3,
-	"currency": "ALL",
-	"message" : "Currently You can sell ALL currency",
-	"exchangeRate": 1.1236
-}, {
-	"id": 4,
-	"currency": "AMD",
-	"message" : "Currently You can sell AMD currency",
-	"exchangeRate": 1.1237
-}, {
 	"id": 5,
 	"currency": "ANG",
 	"message" : "Currently You can sell ANG currency",
@@ -751,7 +658,7 @@
 	"id": 6,
 	"currency": "AOA",
 	"message" : "Currently You can sell AOA currency",
-	"exchangeRate": 1.1239
+	"exchangeRate": 0
 }, {
 	"id": 7,
 	"currency": "ARS",
@@ -770,11 +677,12 @@
 }, {
 	"id": 10,
 	"currency": "AZN",
-	"message" : "Currently You can sell AZN currency",
+	"message" : "Currently You can't sell AZN currency",
 	"exchangeRate": 1.1243
 }, {
 	"id": 11,
 	"currency": "BAM",
+	"message" : "Currently You can sell BAM currency",
 	"exchangeRate": 1.1244
 }, {
 	"id": 12,
@@ -785,7 +693,7 @@
 	"id": 13,
 	"currency": "BDT",
 	"message" : "Currently You can sell BDT currency",
-	"exchangeRate": 1.1246
+	"exchangeRate": 0
 }, {
 	"id": 14,
 	"currency": "BGN",
@@ -796,36 +704,6 @@
 	"currency": "BHD",
 	"message" : "Currently You can sell BHD currency",
 	"exchangeRate": 1.1248
-}, {
-	"id": 16,
-	"currency": "BIF",
-	"message" : "Currently You can sell BIF currency",
-	"exchangeRate": 1.1249
-}, {
-	"id": 17,
-	"currency": "BMD",
-	"message" : "Currently You can sell BMD currency",
-	"exchangeRate": 1.1250
-}, {
-	"id": 18,
-	"currency": "BND",
-	"message" : "Currently You can sell BND currency",
-	"exchangeRate": 1.1251
-}, {
-	"id": 19,
-	"currency": "BOB",
-	"message" : "Currently You can sell BOB currency",
-	"exchangeRate": 1.1252
-}, {
-	"id": 20,
-	"currency": "BOV",
-	"message" : "Currently You can sell BOV currency",
-	"exchangeRate": 1.1253
-}, {
-	"id": 21,
-	"currency": "BRL",
-	"message" : "Currently You can sell BRL currency",
-	"exchangeRate": 1.1254
 }, {
 	"id": 22,
 	"currency": "BSD",
@@ -844,7 +722,8 @@
 }, {
 	"id": 25,
 	"currency": "BYN",
-	"message" : "Currently You can sell BYN currency"
+	"message" : "Currently You can sell BYN currency",
+	"exchangeRate": 1.1258
 }, {
 	"id": 26,
 	"currency": "BZD",
@@ -861,34 +740,9 @@
 	"message" : "Currently You can sell CDF currency",
 	"exchangeRate": 1.1261
 }, {
-	"id": 29,
-	"currency": "CHE",
-	"message" : "Currently You can sell CHE currency",
-	"exchangeRate": 1.1262
-}, {
-	"id": 30,
-	"currency": "CHF",
-	"message" : "Currently You can sell CHF currency",
-	"exchangeRate": 1.1263
-}, {
-	"id": 31,
-	"currency": "CHW",
-	"message" : "Currently You can sell CHW currency",
-	"exchangeRate": 1.1264
-}, {
-	"id": 32,
-	"currency": "CLF",
-	"message" : "Currently You can sell CLF currency",
-	"exchangeRate": 1.1265
-}, {
-	"id": 33,
-	"currency": "CLP",
-	"message" : "Currently You can sell CLP currency",
-	"exchangeRate": 1.1266
-}, {
 	"id": 34,
 	"currency": "CNY",
-	"message" : "Currently You can sell CNY currency",
+	"message" : "Currently You can't sell CNY currency",
 	"exchangeRate": 1.1267
 }, {
 	"id": 35,
@@ -933,8 +787,8 @@
 }, {
 	"id": 43,
 	"currency": "DKK",
-	"message" : "Currently You can't sell DKK currency",
-	"exchangeRate": 0
+	"message" : "Currently You can sell DKK currency",
+	"exchangeRate": 1.1276
 }, {
 	"id": 44,
 	"currency": "DOP",
@@ -965,76 +819,6 @@
 	"currency": "EUR",
 	"message" : "Currently You can sell EUR currency",
 	"exchangeRate": 1.1282
-}, {
-	"id": 50,
-	"currency": "FJD",
-	"message" : "Currently You can sell FJD currency",
-	"exchangeRate": 1.1283
-}, {
-	"id": 51,
-	"currency": "FKP",
-	"message" : "Currently You can sell FKP currency",
-	"exchangeRate": 1.1284
-}, {
-	"id": 52,
-	"currency": "GBP",
-	"message" : "Currently You can sell GBP currency",
-	"exchangeRate": 1.1285
-}, {
-	"id": 53,
-	"currency": "GEL",
-	"message" : "Currently You can sell GEL currency",
-	"exchangeRate": 1.1286
-}, {
-	"id": 54,
-	"currency": "GHS",
-	"message" : "Currently You can sell GHS currency",
-	"exchangeRate": 1.1287
-}, {
-	"id": 55,
-	"currency": "GIP",
-	"message" : "Currently You can sell GIP currency",
-	"exchangeRate": 1.1288
-}, {
-	"id": 56,
-	"currency": "GMD",
-	"message" : "Currently You can sell GMD currency",
-	"exchangeRate": 1.1289
-}, {
-	"id": 57,
-	"currency": "GNF",
-	"message" : "Currently You can sell GNF currency",
-	"exchangeRate": 1.1290
-}, {
-	"id": 58,
-	"currency": "GTQ",
-	"message" : "Currently You can sell GTQ currency",
-	"exchangeRate": 1.1291
-}, {
-	"id": 59,
-	"currency": "GYD",
-	"message" : "Currently You can sell GYD currency",
-	"exchangeRate": 1.1292
-}, {
-	"id": 60,
-	"currency": "HKD",
-	"message" : "Currently You can sell HKD currency",
-	"exchangeRate": 1.1293
-}, {
-	"id": 61,
-	"currency": "HNL",
-	"message" : "Currently You can sell HNL currency",
-	"exchangeRate": 1.1294
-}, {
-	"id": 62,
-	"currency": "HRK",
-	"message" : "Currently You can sell HRK currency",
-	"exchangeRate": 1.1295
-}, {
-	"id": 63,
-	"currency": "HTG",
-	"message" : "Currently You can sell HTG currency",
-	"exchangeRate": 1.1296
 }, {
 	"id": 64,
 	"currency": "HUF",
@@ -1096,6 +880,61 @@
 	"message" : "Currently You can sell KGS currency",
 	"exchangeRate": 1.1308
 }, {
+	"id": 76,
+	"currency": "KHR",
+	"message" : "Currently You can sell KHR currency",
+	"exchangeRate": 1.1309
+}, {
+	"id": 77,
+	"currency": "KMF",
+	"message" : "Currently You can sell KMF currency",
+	"exchangeRate": 1.1310
+}, {
+	"id": 78,
+	"currency": "KPW",
+	"message" : "Currently You can sell KPW currency",
+	"exchangeRate": 1.1311
+}, {
+	"id": 79,
+	"currency": "KRW",
+	"message" : "Currently You can sell KRW currency",
+	"exchangeRate": 1.1312
+}, {
+	"id": 80,
+	"currency": "KWD",
+	"message" : "Currently You can sell KWD currency",
+	"exchangeRate": 1.1313
+}, {
+	"id": 81,
+	"currency": "KYD",
+	"message" : "Currently You can sell KYD currency",
+	"exchangeRate": 1.1010
+}, {
+	"id": 82,
+	"currency": "KZT",
+	"message" : "Currently You can sell KZT currency",
+	"exchangeRate": 1.1315
+}, {
+	"id": 83,
+	"currency": "LAK",
+	"message" : "Currently You can sell LAK currency",
+	"exchangeRate": 1.1316
+}, {
+	"id": 84,
+	"currency": "LBP",
+	"message" : "Currently You can sell LBP currency",
+	"exchangeRate": 1.1317
+}, {
+	"id": 85,
+	"currency": "LKR",
+	"message" : "Currently You can sell LKR currency",
+	"exchangeRate": 1.1318
+}, {
+	"id": 86,
+	"currency": "LRD",
+	"message" : "Currently You can sell LRD currency",
+	"exchangeRate": 1.1319
+}, {
 	"id": 87,
 	"currency": "LSL",
 	"message" : "Currently You can sell LSL currency",
@@ -1143,7 +982,7 @@
 }, {
 	"id": 96,
 	"currency": "MRO",
-	"message" : "Currently You can sell MRO currency",
+	"message" : "Currently You can't sell MRO currency",
 	"exchangeRate": 1.1329
 }, {
 	"id": 97,
@@ -1169,7 +1008,7 @@
 	"id": 101,
 	"currency": "MXV",
 	"message" : "Currently You can sell MXV currency",
-	"exchangeRate": 1.1334
+	"exchangeRate": 0
 }, {
 	"id": 102,
 	"currency": "MYR",
@@ -1478,7 +1317,8 @@
 }, {
 	"id": 170,
 	"currency": "XPT",
-	"message" : "Currently You can sell XPT currency"
+	"message" : "Currently You can sell XPT currency",
+	"exchangeRate": 1.1003
 }, {
 	"id": 171,
 	"currency": "XSU",

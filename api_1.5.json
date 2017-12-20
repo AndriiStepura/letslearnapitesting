@@ -344,6 +344,26 @@
 	"message" : "Currently You can buy KGS currency",
 	"exchangeRate": 1.1308
 }, {
+	"id": 76,
+	"currency": "KHR",
+	"message" : "Currently You can buy KHR currency",
+	"exchangeRate": 1.1309
+}, {
+	"id": 77,
+	"currency": "KMF",
+	"message" : "Currently You can buy KMF currency",
+	"exchangeRate": 1.1310
+}, {
+	"id": 78,
+	"currency": "KPW",
+	"message" : "Currently You can buy KPW currency",
+	"exchangeRate": 1.1311
+}, {
+	"id": 79,
+	"currency": "KRW",
+	"message" : "Currently You can buy KRW currency",
+	"exchangeRate": 1.1312
+}, {
 	"id": 80,
 	"currency": "KWD",
 	"message" : "Currently You can buy KWD currency",
@@ -479,6 +499,121 @@
 	"message" : "Currently You can buy NIO currency",
 	"exchangeRate": 1.1339
 }, {
+	"id": 107,
+	"currency": "NOK",
+	"message" : "Currently You can buy NOK currency",
+	"exchangeRate": 1.1340
+}, {
+	"id": 108,
+	"currency": "NPR",
+	"message" : "Currently You can buy NPR currency",
+	"exchangeRate": 1.1341
+}, {
+	"id": 109,
+	"currency": "NZD",
+	"message" : "Currently You can buy NZD currency",
+	"exchangeRate": 1.1342
+}, {
+	"id": 110,
+	"currency": "OMR",
+	"message" : "Currently You can't buy OMR currency",
+	"exchangeRate": 1.1343
+}, {
+	"id": 111,
+	"currency": "PAB",
+	"message" : "Currently You can buy PAB currency",
+	"exchangeRate": 1.1344
+}, {
+	"id": 112,
+	"currency": "PEN",
+	"message" : "Currently You can buy PEN currency",
+	"exchangeRate": 1.1345
+}, {
+	"id": 113,
+	"currency": "PGK",
+	"message" : "Currently You can buy PGK currency",
+	"exchangeRate": 1.1346
+}, {
+	"id": 114,
+	"currency": "PHP",
+	"message" : "Currently You can buy PHP currency",
+	"exchangeRate": 1.1347
+}, {
+	"id": 115,
+	"currency": "PKR",
+	"message" : "Currently You can buy PKR currency",
+	"exchangeRate": 1.1348
+}, {
+	"id": 116,
+	"currency": "PLN",
+	"message" : "Currently You can buy PLN currency",
+	"exchangeRate": 1.1349
+}, {
+	"id": 117,
+	"currency": "PYG",
+	"message" : "Currently You can buy PYG currency",
+	"exchangeRate": 1.1350
+}, {
+	"id": 118,
+	"currency": "QAR",
+	"message" : "Currently You can buy QAR currency",
+	"exchangeRate": 1.1351
+}, {
+	"id": 119,
+	"currency": "RON",
+	"message" : "Currently You can buy RON currency",
+	"exchangeRate": 1.1352
+}, {
+	"id": 120,
+	"currency": "RSD",
+	"message" : "Currently You can buy RSD currency",
+	"exchangeRate": 1.1353
+}, {
+	"id": 121,
+	"currency": "RUB",
+	"message" : "Currently You can buy RUB currency",
+	"exchangeRate": 1.1354
+}, {
+	"id": 122,
+	"currency": "RWF",
+	"message" : "Currently You can't buy RWF currency",
+	"exchangeRate": 1.1355
+}, {
+	"id": 123,
+	"currency": "SAR",
+	"message" : "Currently You can buy SAR currency",
+	"exchangeRate": 1.1356
+}, {
+	"id": 124,
+	"currency": "SBD",
+	"message" : "Currently You can buy SBD currency",
+	"exchangeRate": 1.1357
+}, {
+	"id": 125,
+	"currency": "SCR",
+	"message" : "Currently You can buy SCR currency",
+	"exchangeRate": 1.1358
+}, {
+	"id": 126,
+	"currency": "SDG",
+	"message" : "Currently You can buy SDG currency",
+	"exchangeRate": 1.1359
+}, {
+	"id": 127,
+	"currency": "SEK",
+	"message" : "Currently You can buy SEK currency",
+	"exchangeRate": 1.1360
+}, {
+	"id": 128,
+	"currency": "SGD",
+	"message" : "Currently You can buy SGD currency",
+	"exchangeRate": 1.1361
+}, {
+	"id": 129,
+	"currency": "SHP",
+	"message" : "Currently You can buy SHP currency",
+	"exchangeRate": 1.1362
+}, {
 	"id": 130,
 	"currency": "SLL",
 	"message" : "Currently You can buy SLL currency",
@@ -496,6 +631,7 @@
 }, {
 	"id": 133,
 	"currency": "SSP",
+	"message" : "Currently You can buy SSP currency",
 	"exchangeRate": 1.1366
 }, {
 	"id": 134,
@@ -675,7 +811,8 @@
 }, {
 	"id": 169,
 	"currency": "XPF",
-	"message" : "Currently You can buy XPF currency"
+	"message" : "Currently You can buy XPF currency",
+	"exchangeRate": 1.1402
 }, {
 	"id": 170,
 	"currency": "XPT",
@@ -775,6 +912,7 @@
 }, {
 	"id": 11,
 	"currency": "BAM",
+	"message" : "Currently You can sell BAM currency",
 	"exchangeRate": 1.1244
 }, {
 	"id": 12,
@@ -844,7 +982,8 @@
 }, {
 	"id": 25,
 	"currency": "BYN",
-	"message" : "Currently You can sell BYN currency"
+	"message" : "Currently You can sell BYN currency",
+	"exchangeRate": 1.1258
 }, {
 	"id": 26,
 	"currency": "BZD",
@@ -933,8 +1072,8 @@
 }, {
 	"id": 43,
 	"currency": "DKK",
-	"message" : "Currently You can't sell DKK currency",
-	"exchangeRate": 0
+	"message" : "Currently You can sell DKK currency",
+	"exchangeRate": 1.1276
 }, {
 	"id": 44,
 	"currency": "DOP",
@@ -1095,6 +1234,61 @@
 	"currency": "KGS",
 	"message" : "Currently You can sell KGS currency",
 	"exchangeRate": 1.1308
+}, {
+	"id": 76,
+	"currency": "KHR",
+	"message" : "Currently You can sell KHR currency",
+	"exchangeRate": 1.1309
+}, {
+	"id": 77,
+	"currency": "KMF",
+	"message" : "Currently You can sell KMF currency",
+	"exchangeRate": 1.1310
+}, {
+	"id": 78,
+	"currency": "KPW",
+	"message" : "Currently You can sell KPW currency",
+	"exchangeRate": 1.1311
+}, {
+	"id": 79,
+	"currency": "KRW",
+	"message" : "Currently You can sell KRW currency",
+	"exchangeRate": 1.1312
+}, {
+	"id": 80,
+	"currency": "KWD",
+	"message" : "Currently You can sell KWD currency",
+	"exchangeRate": 1.1313
+}, {
+	"id": 81,
+	"currency": "KYD",
+	"message" : "Currently You can sell KYD currency",
+	"exchangeRate": 1.1010
+}, {
+	"id": 82,
+	"currency": "KZT",
+	"message" : "Currently You can sell KZT currency",
+	"exchangeRate": 1.1315
+}, {
+	"id": 83,
+	"currency": "LAK",
+	"message" : "Currently You can sell LAK currency",
+	"exchangeRate": 1.1316
+}, {
+	"id": 84,
+	"currency": "LBP",
+	"message" : "Currently You can sell LBP currency",
+	"exchangeRate": 1.1317
+}, {
+	"id": 85,
+	"currency": "LKR",
+	"message" : "Currently You can sell LKR currency",
+	"exchangeRate": 1.1318
+}, {
+	"id": 86,
+	"currency": "LRD",
+	"message" : "Currently You can sell LRD currency",
+	"exchangeRate": 1.1319
 }, {
 	"id": 87,
 	"currency": "LSL",
@@ -1478,7 +1672,8 @@
 }, {
 	"id": 170,
 	"currency": "XPT",
-	"message" : "Currently You can sell XPT currency"
+	"message" : "Currently You can sell XPT currency",
+	"exchangeRate": 1.1003
 }, {
 	"id": 171,
 	"currency": "XSU",
