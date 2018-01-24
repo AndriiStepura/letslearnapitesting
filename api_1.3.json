@@ -5,6 +5,56 @@
         "phone": "+48889417715"
     },
 	"buy": [{
+	"id": 1,
+	"currency": "AED",
+	"message" : "Currently You can buy AED currency",
+	"exchangeRate": 1.1234
+}, {
+	"id": 2,
+	"currency": "AFN",
+	"message" : "Currently You can buy AFN currency",
+	"exchangeRate": 1.1235
+}, {
+	"id": 3,
+	"currency": "ALL",
+	"message" : "Currently You can buy ALL currency",
+	"exchangeRate": 1.1236
+}, {
+	"id": 4,
+	"currency": "AMD",
+	"message" : "Currently You can buy AMD currency",
+	"exchangeRate": 1.1237
+}, {
+	"id": 5,
+	"currency": "ANG",
+	"message" : "Currently You can buy ANG currency",
+	"exchangeRate": 1.1238
+}, {
+	"id": 6,
+	"currency": "AOA",
+	"message" : "Currently You can buy AOA currency",
+	"exchangeRate": 1.1239
+}, {
+	"id": 7,
+	"currency": "ARS",
+	"message" : "Currently You can buy ARS currency",
+	"exchangeRate": 1.1240
+}, {
+	"id": 8,
+	"currency": "AUD",
+	"message" : "Currently You can buy AUD currency",
+	"exchangeRate": 1.1241
+}, {
+	"id": 9,
+	"currency": "AWG",
+	"message" : "Currently You can buy AWG currency",
+	"exchangeRate": 1.1242
+}, {
+	"id": 10,
+	"currency": "AZN",
+	"message" : "Currently You can buy AZN currency",
+	"exchangeRate": 1.1243
+}, {
 	"id": 36,
 	"currency": "COU",
 	"message" : "Currently You can buy COU currency",
@@ -650,6 +700,21 @@
 	"message" : "Currently You can sell AED currency",
 	"exchangeRate": 1.1234
 }, {
+	"id": 2,
+	"currency": "AFN",
+	"message" : "Currently You can sell AFN currency",
+	"exchangeRate": 1.1235
+}, {
+	"id": 3,
+	"currency": "ALL",
+	"message" : "Currently You can sell ALL currency",
+	"exchangeRate": 1.1236
+}, {
+	"id": 4,
+	"currency": "AMD",
+	"message" : "Currently You can sell AMD currency",
+	"exchangeRate": 1.1237
+}, {
 	"id": 5,
 	"currency": "ANG",
 	"message" : "Currently You can sell ANG currency",
@@ -658,7 +723,7 @@
 	"id": 6,
 	"currency": "AOA",
 	"message" : "Currently You can sell AOA currency",
-	"exchangeRate": 0
+	"exchangeRate": 1.1239
 }, {
 	"id": 7,
 	"currency": "ARS",
@@ -677,7 +742,7 @@
 }, {
 	"id": 10,
 	"currency": "AZN",
-	"message" : "Currently You can't sell AZN currency",
+	"message" : "Currently You can sell AZN currency",
 	"exchangeRate": 1.1243
 }, {
 	"id": 11,
