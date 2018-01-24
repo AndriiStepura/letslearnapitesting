@@ -1,0 +1,25 @@
+Preconditions: 
+git clone https://github.com/AndriiStepura/letslearnapitesting.git
+
+
+Slide 5:
+https://en.wikipedia.org/wiki/Application_programming_interface
+curl get https://en.wikipedia.org/wiki/Application_programming_interface
+
+
+Slide 12:
+json-server api_1.0.json
+http://localhost:3000
+
+
+Slide 14:
+http://localhost:3000/.*
+
+
+Slide 27:
+json-server api_1.2.json
+
+
+Slide 29:
+newman run LetsLearnAPITestingSmokeTests.postman_collection.json -e localEnvironment.postman_environment.json -r html,cli --color
+newman run LetsLearnAPITestingVerification.postman_collection.json -e localEnvironment.postman_environment.json -d ddt.csv -n 178 -r cli --color
