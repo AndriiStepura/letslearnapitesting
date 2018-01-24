@@ -122,10 +122,10 @@
 									"tests[\"USD BUY exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;\r",
 									"\r",
 									"if (jsonData[0].exchangeRate > 0) {\r",
-									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can buy ZWL currency\";\r",
+									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can buy USD currency\";\r",
 									"    postman.setEnvironmentVariable(\"buyPrice\", jsonData[0].exchangeRate);\r",
 									"} else {\r",
-									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can't buy ZWL currency\";\r",
+									"    tests[\"Message for BUY USD is: \\\"Currently You can buy USD currency\\\"\"] = jsonData[0].message == \"Currently You can't buy USD currency\";\r",
 									"}\r",
 									""
 								]
@@ -134,7 +134,7 @@
 					],
 					"request": {
 						"url": {
-							"raw": "{{host}}/buy?currency=ZWL",
+							"raw": "{{host}}/buy?currency=USD",
 							"host": [
 								"{{host}}"
 							],
@@ -144,7 +144,7 @@
 							"query": [
 								{
 									"key": "currency",
-									"value": "ZWL",
+									"value": "USD",
 									"equals": true,
 									"description": ""
 								}
@@ -172,10 +172,10 @@
 									"tests[\"USD SELL exchangeRate exist\"] = jsonData[0].exchangeRate >= 0;",
 									"",
 									"if (jsonData[0].exchangeRate > 0) {",
-									"    tests[\"Message for SELL USD is: \\\"Currently You can sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can sell ZWL currency\";",
+									"    tests[\"Message for SELL USD is: \\\"Currently You can sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can sell USD currency\";",
 									"    tests[data.currencyName + \" SELL price \" + jsonData[0].exchangeRate + \" at least for 4% highest than BUY price \" + environment.buyPrice] = jsonData[0].exchangeRate >= environment.buyPrice / 1.04;",
 									"} else {",
-									"    tests[\"Message for SELL USD is: \\\"Currently You can't sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can't sell ZWL currency\";",
+									"    tests[\"Message for SELL USD is: \\\"Currently You can't sell USD currency\\\"\"] = jsonData[0].message == \"Currently You can't sell USD currency\";",
 									"    if (environment.buyPrice) {",
 									"        tests[data.currencyName + \" SELL price is not available when BUY price exists\"] = true;",
 									"    }",
@@ -186,7 +186,7 @@
 					],
 					"request": {
 						"url": {
-							"raw": "{{host}}/sell?currency=ZWL",
+							"raw": "{{host}}/sell?currency=USD",
 							"host": [
 								"{{host}}"
 							],
@@ -196,7 +196,7 @@
 							"query": [
 								{
 									"key": "currency",
-									"value": "ZWL",
+									"value": "USD",
 									"equals": true,
 									"description": ""
 								}
