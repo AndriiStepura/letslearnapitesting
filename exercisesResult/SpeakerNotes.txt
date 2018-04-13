@@ -23,3 +23,8 @@ json-server api_1.2.json
 Slide 29:
 newman run LetsLearnAPITestingSmokeTests.postman_collection.json -e localEnvironment.postman_environment.json -r html,cli --color
 newman run LetsLearnAPITestingVerification.postman_collection.json -e localEnvironment.postman_environment.json -d ddt.csv -n 178 -r cli --color
+
+========
+Postman proxy - https://www.youtube.com/watch?v=yUPg0dh0mow - https://github.com/electron/electron/tree/master/docs/api
+open cmd at postman folder and command:
+PostmanCanary --proxy-server=localhost:8888
