@@ -10,6 +10,8 @@ Create variable from response in tests:
 ======================================
 Get variable:
 pm.environment.get("variable_key");
+or
+environment.iterationCounter
 ======================================
 Parse html response:
 var tempString = responseBody.toString().split("access_token="); //parse all to array where all after this string placed in second array element
