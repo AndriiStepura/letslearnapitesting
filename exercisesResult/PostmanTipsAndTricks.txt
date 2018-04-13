@@ -28,6 +28,7 @@ console.log("Test log");
 console.log(pm.environment.get("role"));
 console.log(responseBody);
 ======================================
+<<<<<<< HEAD
 Skip request:
 if (postman.getEnvironmentVariable("ignore_request_x")=='true'){
    postman.skipRequest;
@@ -38,4 +39,8 @@ var iterationCounter = parseInt(environment.iterationCounter);
 if(isNaN(iterationCounter)){postman.setEnvironmentVariable("iterationCounter", 1)}
 else{postman.setEnvironmentVariable("iterationCounter", parseInt(iterationCounter)+1);}
 if (environment.iterationCounter>1){postman.setNextRequest("Request name if not first run")}
+=======
+Skip to another request:
+if(role!="endUser"){}
+>>>>>>> 7cf3e0117048cdcd66416c41174b389c1af76cbc
 ======================================
