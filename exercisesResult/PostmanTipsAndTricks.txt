@@ -13,6 +13,10 @@ pm.environment.get("variable_key");
 or
 environment.iterationCounter
 ======================================
+Create unic variable (based on current timestamp):
+var timeStampInMs =  Math.floor(Date.now() / 1000); //Create string of current date and time up to miliseconds and save it to variable
+pm.environment.set("myUnicChangebleVariable", 'StartOfString_' + Math.floor(Date.now() / 1000) + "_EndOfUnicValue");// Or set it as env. variable
+======================================
 Parse html response:
 var tempString = responseBody.toString().split("access_token="); //parse all to array where all after this string placed in second array element
 var token  = tempString[1].toString().split("&"); //again parse saved and save from start up to provided string
@@ -41,3 +45,4 @@ if(isNaN(iterationCounter)){postman.setEnvironmentVariable("iterationCounter", 1
 else{postman.setEnvironmentVariable("iterationCounter", parseInt(iterationCounter)+1);}
 if (environment.iterationCounter>1){postman.setNextRequest("Request name if not first run")}
 ======================================
+Postman: Effectively Storing and Using Tests in a Git Repository - https://rimdev.io/postman-effectively-storing-and-using-tests-in-a-git-repository/
