@@ -17,6 +17,11 @@ Create unic variable (based on current timestamp):
 var timeStampInMs =  Math.floor(Date.now() / 1000); //Create string of current date and time up to miliseconds and save it to variable
 pm.environment.set("myUnicChangebleVariable", 'StartOfString_' + Math.floor(Date.now() / 1000) + "_EndOfUnicValue");// Or set it as env. variable
 ======================================
+Current timestamp according to ISO8601:    
+	var d = new Date();
+    var nowISO8601 = d.toISOString();
+    pm.environment.set("nowTimestampISO8601", nowISO8601);
+======================================
 Parse html response:
 var tempString = responseBody.toString().split("access_token="); //parse all to array where all after this string placed in second array element
 var token  = tempString[1].toString().split("&"); //again parse saved and save from start up to provided string
