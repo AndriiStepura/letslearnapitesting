@@ -51,3 +51,19 @@ else{postman.setEnvironmentVariable("iterationCounter", parseInt(iterationCounte
 if (environment.iterationCounter>1){postman.setNextRequest("Request name if not first run")}
 ======================================
 Postman: Effectively Storing and Using Tests in a Git Repository - https://rimdev.io/postman-effectively-storing-and-using-tests-in-a-git-repository/
+======================================
+Tests auto format hotkey - Ctr+B
+======================================
+Seve variable from firs user with group from list of users:
+
+if (responseCode.code === 200) {
+    var jsonData = JSON.parse(responseBody);
+
+    jsonData.data.forEach(function(i) {
+        if (i.group) {
+            pm.environment.set("customerNumber", i.group); //Save first customerNumber to variable
+            return true; // break forEach
+        }
+    })
+
+}
