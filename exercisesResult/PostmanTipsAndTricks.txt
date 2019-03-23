@@ -1,8 +1,9 @@
 ======================================
 Test code with check response code example:
-pm.test("If you using postman ensure that settings automatically follow redirects is turned to off.", function () {
-		pm.response.to.have.status(302);
-    });
+// if (responseCode.code >= 300 && responseCode.code < 400) {
+if (responseCode.code.toString()[0] == 3) {
+    tests["If you're using postman ensure that settings automatically follow redirects is turned off."] = false;
+}
 ======================================
 Create variable from response in tests:
     var jsonData = JSON.parse(responseBody);
@@ -13,21 +14,21 @@ pm.environment.get("variable_key");
 or
 environment.iterationCounter
 ======================================
-Create unic variable (based on current timestamp):
-var timeStampInMs =  Math.floor(Date.now() / 1000); //Create string of current date and time up to miliseconds and save it to variable
-pm.environment.set("myUnicChangebleVariable", 'StartOfString_' + Math.floor(Date.now() / 1000) + "_EndOfUnicValue");// Or set it as env. variable
+Create unique variable (based on current timestamp):
+var timeStampInMs =  Math.floor(Date.now() / 1000); //Create string of current date and time up to milliseconds and save it to variable
+pm.environment.set("myUniqueChangebleVariable", 'StartOfString_' + Math.floor(Date.now() / 1000) + "_EndOfUniqueValue");// Or set it as env. variable
 ======================================
-Current timestamp according to ISO8601:    
+Current timestamp according to ISO860 yyyy-mm-ddThh:mm:ss.ffffff:    
 	var d = new Date();
-    var nowISO8601 = d.toISOString();
-    pm.environment.set("nowTimestampISO8601", nowISO8601);
+	var nowISO8601 = d.toISOString();
+	pm.environment.set("nowTimestampISO8601", nowISO8601);
 ======================================
 Parse html response:
 var tempString = responseBody.toString().split("access_token="); //parse all to array where all after this string placed in second array element
 var token  = tempString[1].toString().split("&"); //again parse saved and save from start up to provided string
 postman.setEnvironmentVariable("myIAMToken", token[0]+"&");
 ======================================
-Variables inheritance and polimorphism: http://blog.getpostman.com/wp-content/uploads/2017/12/image1-2.png
+Variables inheritance and polymorphism: http://blog.getpostman.com/wp-content/uploads/2017/12/image1-2.png
 -global
 --collection
 ---environment
@@ -54,16 +55,15 @@ Postman: Effectively Storing and Using Tests in a Git Repository - https://rimde
 ======================================
 Tests auto format hotkey - Ctr+B
 ======================================
-Seve variable from firs user with group from list of users:
+Save first or all variables from JSON:
 
 if (responseCode.code === 200) {
     var jsonData = JSON.parse(responseBody);
 
     jsonData.data.forEach(function(i) {
-        if (i.group) {
-            pm.environment.set("customerNumber", i.group); //Save first customerNumber to variable
+        if (i.fitstName) {
+            pm.environment.set("customerFirstName", i.id); //Save first customerName to variable
             return true; // break forEach
         }
     })
-
 }
