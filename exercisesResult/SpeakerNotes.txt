@@ -8,6 +8,7 @@ curl get https://en.wikipedia.org/wiki/Application_programming_interface
 
 
 Slide 12:
+npm install -g json-server
 json-server api_1.0.json
 http://localhost:3000
 
