@@ -1,3 +1,6 @@
-newman run LetsLearnAPITestingSmokeTests.postman_collection.json --environment localEnvironment.postman_environment.json
+NOTE: install HTML reporter with 
+npm install -g newman-reporter-html
 
-newman run LetsLearnAPITestingVerification.postman_collection.json --environment localEnvironment.postman_environment.json --iteration-data ddt.csv --iteration-count 178 --reporters html
+newman run LetsLearnAPITestingSmokeTests.postman_collection.json --environment localEnvironment.postman_environment.json --reporters html,cli,json,junit
+
+newman run LetsLearnAPITestingVerification.postman_collection.json --environment localEnvironment.postman_environment.json --iteration-data ddt.csv --iteration-count 178 --reporters html,cli,json,junit
