@@ -1,3 +1,5 @@
+HTML reporter:
+npm install -g newman-reporter-html
 ======================================
 Test code with check response code example:
 // if (responseCode.code >= 300 && responseCode.code < 400) {
